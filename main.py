@@ -5,13 +5,12 @@ from torchvision import datasets, transforms, models
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 import time
-from torchvision.models import ResNet18_Weights
 
 # -------------------------
 # Config
 # -------------------------
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-DATA_DIR = "./dataset"  # folder containing bird/, cat/, dog/
+DATA_DIR = "./dataset"
 BATCH_SIZE = 32
 EPOCHS = 5
 
