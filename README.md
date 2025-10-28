@@ -1,3 +1,5 @@
 ﻿# CMPE258_hw1
 
-pip install torch torchvision tqdm torchaudio --index-url https://download.pytorch.org/whl/cu124
+pip install torch torchvision torchaudio transformers datasets pillow tqdm numpy scikit-learn protobuf hf_xet
+
+
